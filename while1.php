@@ -7,7 +7,12 @@ while ($i <= 365) {
 }
 ?>
 <?php
-$i = 1;
-print($i);
+$i1 = 1;
+print($i1);
+$i1 =  $i1 + 1;
+print($i1);
+$i1 =  $i1 + 1;
+print($i1);
 ?>
+
 </pre>
