@@ -17,8 +17,15 @@ print($i1 . "\n");
 <?php
 $i2 = 1;
 while ($i2 <= 365) {
-  print($i2);
+  print($i2 . "\n");
   $i2++;
+}
+?>
+<?php
+$i3 = 100;
+while ($i3 >= 1) {
+  print($i3 . "\n");
+  $i3 = $i3 - 2;
 }
 ?>
 
