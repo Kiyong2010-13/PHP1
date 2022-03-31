@@ -32,4 +32,11 @@ $two_month = strtotime('-2month');
 $day3 = date('n/j(D)' , $two_month);
 print($day3 . "\n");
 ?>
+<?php
+for ($i1 = 1; $i1 <= 730; $i1++) {
+  $timestamp1 = strtotime('+' . $i1 . 'day');
+  $day1 = date('n/j(D)',  $timestamp1);
+  print($day1 . "\n");
+}
+?>
 </pre>
