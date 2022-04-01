@@ -10,7 +10,7 @@ $time = time();
 print($time . "\n");
 ?>
 <?php
-$day = date('m/j(D)' , 86400);
+$day = date('m/j(D)', 86400);
 print($day . "\n");
 ?>
 <?php
@@ -29,7 +29,7 @@ print($day2 . "\n");
 ?>
 <?php
 $two_month = strtotime('-2month');
-$day3 = date('n/j(D)' , $two_month);
+$day3 = date('n/j(D)', $two_month);
 print($day3 . "\n");
 ?>
 <?php
@@ -39,4 +39,20 @@ for ($i1 = 1; $i1 <= 730; $i1++) {
   print($day1 . "\n");
 }
 ?>
+<?php
+for ($i2 = 1; $i2 <= 365; $i2++) {
+  $day = date('n/j(D)', strtotime('+' . $i2 . 'day'));
+  print ($day . "\n");
+}
+?>
+<?php
+$i3 = 1;
+while ($i3 <= 365) {
+  $timestamp3 = strtotime('+' . $i3 . 'day');
+  $day = date('n/j(D)', $timestamp3);
+  print ($day . "\n");
+  $i3++;
+}
+?>
+
 </pre>
