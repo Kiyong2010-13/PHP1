@@ -15,7 +15,19 @@ if ($x) {
 <?php
 $x1 = 0;
 if (!$x1) {
-  print('x1は0です');
+  print('x1は0です' . "\n");
+}
+?>
+<?php
+$a = 1;
+if ($a) {
+  print('aは1です!'. "\n");
+}
+?>
+<?php
+$answer = 0;
+if ($answer == 0) {
+  print('1以上の数字を指定してください');
 }
 ?>
 </pre>
