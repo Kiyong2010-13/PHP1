@@ -13,4 +13,12 @@ file_put_contents('../news_data/news.txt', $doc1);
 
 readfile('../news_data/news.txt');
 ?>
+
+<?php
+$doc2 = file_get_contents('../news_data/news.txt');
+$doc2 = "<br />2022-06-01 なんだか憂鬱だけど、頑張れ";
+file_put_contents('../news_data/news.txt', $doc2);
+
+readfile('../news_data/news.txt');
+?>
 </pre>
