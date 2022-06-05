@@ -7,5 +7,6 @@ foreach($xmlTree->channel->item as $item):
 <?php
 endforeach;
 ?>
-
+<?php
+?>
 </pre>
